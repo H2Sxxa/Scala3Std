@@ -12,7 +12,7 @@ It should also compat with CleanRoomMC.
 
 ## How to use
 
-### 1. Declare Denpendencies
+### 1. Declare Dependencies
 
 ```groovy
 repositories {
@@ -46,6 +46,20 @@ tasks.named('shadowJar', ShadowJar) {
 
 tasks.named("build") {
     dependsOn(tasks.named("shadowJar"))
+}
+```
+
+### Use Annotation to declare a Mod
+
+```scala 3
+@Mod(
+  modid = "foo",
+  name = "Foo",
+  version = "1.0.0",
+  modLanguageAdapter = "com.cleanroommc.scalar.ScalaLanguageAdapter",
+)
+object Foo {
+  // ...
 }
 ```
 
