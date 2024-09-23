@@ -1,20 +1,25 @@
+import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
+
 plugins {
     id 'java'
     id 'java-library'
     id 'eclipse'
+    id 'scala'
     id 'com.gtnewhorizons.retrofuturagradle' version '1.4.1'
+    id "com.github.johnrengelman.shadow" version "8.1.1"
 }
 
 
 version = "1.0"
-group = "com.yourname.modid"
-archivesBaseName = "modid"
+group = "io.github.h2sxxa"
+archivesBaseName = "scalastd"
+
 
 java {
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(8))
         // Azul covers the most platforms for Java 8 toolchains, crucially including MacOS arm64
-        vendor.set(org.gradle.jvm.toolchain.JvmVendorSpec.AZUL)
+        vendor.set(JvmVendorSpec.AZUL)
     }
     // Generate sources and javadocs jars when building and publishing
     withSourcesJar()
@@ -23,6 +28,31 @@ java {
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
+}
+
+
+sourceSets {
+    main {
+        scala {
+            srcDirs = ['src/main/scala', 'src/main/java']
+        }
+        java {
+            srcDirs = []
+        }
+
+    }
+}
+
+compileScala {
+    scalaCompileOptions.additionalParameters = ["-target:jvm-1.8"]
+}
+
+compileJava {
+    sourceCompatibility = 8 // for the IDE support
+
+    javaCompiler = javaToolchains.compilerFor {
+        languageVersion = JavaLanguageVersion.of(8)
+    }
 }
 
 
@@ -45,5 +75,43 @@ repositories {
             includeGroup 'com.gtnewhorizons.retrofuturagradle'
         }
     }
+    mavenCentral()
     mavenLocal() // Must be last for caching to work
+}
+
+configurations {
+    shade
+    implementation.extendsFrom(shade)
+}
+
+dependencies {
+    // Don't know if it will cause serious errors
+    shade "org.scala-lang:scala-library:2.13.9"
+    // embed "org.scala-lang.modules:scala-java8-compat_${java8_compat}"
+    // embed "org.scala-lang:scala3-library_3:3.0.2"
+    shade fileTree(dir: "embed", includes: ['*jar'])
+
+}
+
+
+jar {
+    duplicatesStrategy(DuplicatesStrategy.INCLUDE)
+    manifest {
+        def attribute_map = [:]
+        attribute_map['FMLCorePlugin'] = "com.cleanroommc.scalar.ScalarLoadingPlugin"
+        attribute_map['FMLCorePluginContainsFMLMod'] = true
+        attribute_map['ForceLoadAsMod'] = project.gradle.startParameter.taskNames[0] == "build"
+        attributes(attribute_map)
+    }
+    // Add all embedded dependencies into the jar
+    // from(provider { configurations.embed.collect { it.isDirectory() ? it : zipTree(it) } })
+}
+
+tasks.named('shadowJar', ShadowJar) {
+    relocate 'scala', 'scala3'
+    configurations = [project.configurations.shade]
+}
+
+tasks.named("build") {
+    dependsOn(tasks.named("shadowJar"))
 }
