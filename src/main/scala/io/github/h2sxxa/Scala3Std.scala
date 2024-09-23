@@ -9,20 +9,20 @@ import scala.util.Properties
 
 
 @Mod(
-  modid = "scalastd",
-  name = "ScalaStd",
+  modid = "scala3std",
+  name = "Scala3Std",
   version = "1.0.0",
   modLanguageAdapter = "com.cleanroommc.scalar.ScalaLanguageAdapter",
 )
-object ScalaStd {
-  private val LOGGER = LogManager.getLogger("ScalaStd")
+object Scala3Std {
+  private val LOGGER = LogManager.getLogger("Scala3Std")
 
   @Mod.EventHandler
   def init(event: FMLInitializationEvent): Unit = {
     LOGGER.info("ScalaStd Loaded, Scala Runtime is")
     LOGGER.info(Properties.versionString)
-    for msg <- List("This msg is printed by Scala3 Grammar")
-    do
-      LOGGER.info(msg)
+    for msg <- List("This msg is printed by Scala3 Indent Grammar")
+      do
+        LOGGER.info(msg)
   }
 }

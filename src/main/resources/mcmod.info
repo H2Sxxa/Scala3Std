@@ -1,0 +1,16 @@
+[
+{
+  "modid": "scala3std",
+  "name": "Scala3Std",
+  "description": "Bring Scala3 to Minecraft 1.12.2 Forge",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["H2Sxxa"],
+  "credits": "CleanRoomMC",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

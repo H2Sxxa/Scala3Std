@@ -1,6 +1,5 @@
 package com.cleanroommc.scalar;
 
-import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.ILanguageAdapter;
 import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 import org.apache.logging.log4j.LogManager;
@@ -12,6 +11,14 @@ import java.util.Map;
 public class ScalarLoadingPlugin implements IFMLLoadingPlugin {
     public static Logger LOGGER = LogManager.getLogger("Scalar");
 
+    public ScalarLoadingPlugin() {
+        try {
+            Class.forName("com.cleanroommc.loader.LanguageAdapterRegistry").getDeclaredMethod("registerLanguageAdapter", String.class, ILanguageAdapter.class).invoke(null, "scala", new ScalaLanguageAdapter());
+        } catch (Throwable ex) {
+            LOGGER.info("Not running on Cleanroom!");
+            LOGGER.info("May be you are using Forge? Don't worry, it's compat both.");
+        }
+    }
 
     @Override
     public String[] getASMTransformerClass() {
