@@ -8,7 +8,7 @@ It should also compat with CleanRoomMC.
 
 - Scala3Std use the scala language adapter from [CleanRoomMC/Scalar](https://github.com/CleanroomMC/Scalar)
 - Scala3Std use shadow plugin rename `scala` to `scala3` to build a fat jar and avoid conflicting to scala used in forge
-    - Currently, Scala3Std use `scala-library:2.13.15` and `scala3-library_3:3.0.2`
+    - Currently, Scala3Std is using `scala-library:2.13.15` and `scala3-library_3:3.0.2`
 
 ## How to use
 
