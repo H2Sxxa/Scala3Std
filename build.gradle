@@ -1,0 +1,49 @@
+plugins {
+    id 'java'
+    id 'java-library'
+    id 'eclipse'
+    id 'com.gtnewhorizons.retrofuturagradle' version '1.4.1'
+}
+
+
+version = "1.0"
+group = "com.yourname.modid"
+archivesBaseName = "modid"
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(8))
+        // Azul covers the most platforms for Java 8 toolchains, crucially including MacOS arm64
+        vendor.set(org.gradle.jvm.toolchain.JvmVendorSpec.AZUL)
+    }
+    // Generate sources and javadocs jars when building and publishing
+    withSourcesJar()
+    // withJavadocJar()
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+
+minecraft {
+    mcVersion.set('1.12.2')
+
+    // MCP Mappings
+    mcpMappingChannel = 'stable'
+    mcpMappingVersion = '39'
+}
+
+repositories {
+    maven {
+        // RetroFuturaGradle
+        name 'GTNH Maven'
+        url 'https://nexus.gtnewhorizons.com/repository/public/'
+        allowInsecureProtocol = true
+        mavenContent {
+            includeGroup 'com.gtnewhorizons'
+            includeGroup 'com.gtnewhorizons.retrofuturagradle'
+        }
+    }
+    mavenLocal() // Must be last for caching to work
+}
