@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pack.mcmeta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":bug: Fix `mcmod.info`">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embed/scala3-library_3-3.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cleanroommc/scalar/ScalarLoadingPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleanroommc/scalar/ScalarLoadingPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/io/github/h2sxxa/ScalaStd.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/io/github/h2sxxa/Scala3Std.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/mcmod.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mcmod.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,9 +254,20 @@
       <option name="presentableId" value="Default" />
       <updated>1727092256125</updated>
     </task>
+    <task id="LOCAL-00001" summary=":bug: Fix `mcmod.info`">
+      <option name="closed" value="true" />
+      <created>1727134450346</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727134450346</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value=":bug: Fix `mcmod.info`" />
+    <option name="LAST_COMMIT_MESSAGE" value=":bug: Fix `mcmod.info`" />
   </component>
 </project>
