@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment="">
+    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":memo: Update README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727152316377</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=":memo: Update README.md">
+      <option name="closed" value="true" />
+      <created>1727166134134</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727166134134</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -352,6 +361,7 @@
     <MESSAGE value=":tada: add banner" />
     <MESSAGE value=":fire: There is no need to use Adapter in Forge" />
     <MESSAGE value=":alien: Move" />
-    <option name="LAST_COMMIT_MESSAGE" value=":alien: Move" />
+    <MESSAGE value=":memo: Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value=":memo: Update README.md" />
   </component>
 </project>
