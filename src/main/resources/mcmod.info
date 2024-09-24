@@ -5,10 +5,10 @@
   "description": "Bring Scala3 to Minecraft 1.12.2 Forge",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
+  "url": "https://github.com/H2Sxxa/Scala3Std",
+  "updateUrl": "https://github.com/H2Sxxa/Scala3Std/releases",
   "authorList": ["H2Sxxa"],
-  "credits": "CleanRoomMC",
+  "credits": "CleanRoomMC, Oganesson897",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

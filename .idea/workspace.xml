@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":bug: Fix `mcmod.info`">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":memo: Fix Ord">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,9 +63,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {}
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/H2Sxxa/Scalar4F&quot;,
@@ -91,27 +90,27 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Gradle.Scalar4F [build].executor": "Run",
-    "Gradle.Scalar4F [clean].executor": "Run",
-    "Gradle.Scalar4F [compileScala].executor": "Run",
-    "Gradle.Scalar4F [dependencies].executor": "Run",
-    "Gradle.Scalar4F [runClient].executor": "Run",
-    "Gradle.Scalar4F [setupDecompWorkspace].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/WorkSpace/scala/Scalar4F/embed",
-    "project.structure.last.edited": "库",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.28177458",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.Scalar4F [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Scalar4F [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Scalar4F [compileScala].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Scalar4F [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Scalar4F [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Scalar4F [setupDecompWorkspace].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WorkSpace/scala/Scalar4F/embed&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;库&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.28177458&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WorkSpace\scala\Scalar4F\embed" />
@@ -262,12 +261,48 @@
       <option name="project" value="LOCAL" />
       <updated>1727134450346</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=":memo: Add `README.md`">
+      <option name="closed" value="true" />
+      <created>1727135615093</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727135615093</updated>
+    </task>
+    <task id="LOCAL-00003" summary=":poop: Fix Grammar">
+      <option name="closed" value="true" />
+      <created>1727135724831</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727135724831</updated>
+    </task>
+    <task id="LOCAL-00004" summary=":sparkles: How to declare mod">
+      <option name="closed" value="true" />
+      <created>1727135967828</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727135967828</updated>
+    </task>
+    <task id="LOCAL-00005" summary=":memo: Fix Ord">
+      <option name="closed" value="true" />
+      <created>1727136231867</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727136231867</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=":bug: Fix `mcmod.info`" />
-    <option name="LAST_COMMIT_MESSAGE" value=":bug: Fix `mcmod.info`" />
+    <MESSAGE value=":memo: Add `README.md`" />
+    <MESSAGE value=":poop: Fix Grammar" />
+    <MESSAGE value=":sparkles: How to declare mod" />
+    <MESSAGE value=":memo: Fix Ord" />
+    <option name="LAST_COMMIT_MESSAGE" value=":memo: Fix Ord" />
   </component>
 </project>
