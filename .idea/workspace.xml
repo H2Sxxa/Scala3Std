@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":memo: How to use Scala3 Lib">
+    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":bug: Fix Compile Option">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
@@ -371,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727172725900</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary=":bug: Fix Compile Option">
+      <option name="closed" value="true" />
+      <created>1727176081326</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727176081326</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,6 +408,7 @@
     <MESSAGE value=":pencil2: refine dependencies section" />
     <MESSAGE value=":pencil2: rename version for publishing" />
     <MESSAGE value=":memo: How to use Scala3 Lib" />
-    <option name="LAST_COMMIT_MESSAGE" value=":memo: How to use Scala3 Lib" />
+    <MESSAGE value=":bug: Fix Compile Option" />
+    <option name="LAST_COMMIT_MESSAGE" value=":bug: Fix Compile Option" />
   </component>
 </project>
