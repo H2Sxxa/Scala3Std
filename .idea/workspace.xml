@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":memo: Update README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":pencil2: refine dependencies section" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -347,8 +344,27 @@
       <option name="project" value="LOCAL" />
       <updated>1727166134134</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary=":pencil2: refine dependencies section">
+      <option name="closed" value="true" />
+      <created>1727167225335</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727167225335</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -362,6 +378,7 @@
     <MESSAGE value=":fire: There is no need to use Adapter in Forge" />
     <MESSAGE value=":alien: Move" />
     <MESSAGE value=":memo: Update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value=":memo: Update README.md" />
+    <MESSAGE value=":pencil2: refine dependencies section" />
+    <option name="LAST_COMMIT_MESSAGE" value=":pencil2: refine dependencies section" />
   </component>
 </project>
