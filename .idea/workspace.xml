@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":pencil2: refine dependencies section" />
+    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":pencil2: rename version for publishing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -352,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727167225335</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=":pencil2: rename version for publishing">
+      <option name="closed" value="true" />
+      <created>1727167591218</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727167591218</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -379,6 +390,7 @@
     <MESSAGE value=":alien: Move" />
     <MESSAGE value=":memo: Update README.md" />
     <MESSAGE value=":pencil2: refine dependencies section" />
-    <option name="LAST_COMMIT_MESSAGE" value=":pencil2: refine dependencies section" />
+    <MESSAGE value=":pencil2: rename version for publishing" />
+    <option name="LAST_COMMIT_MESSAGE" value=":pencil2: rename version for publishing" />
   </component>
 </project>

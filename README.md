@@ -4,7 +4,8 @@
 
 1.12.2 Minecraft Forge Scala 3 Runtime Provider.
 
-If you are using CleanRoomLoader, please consider to use [CleanRoomMC/Scalar](https://github.com/CleanroomMC/Scalar) to provide Scala language adapter.
+If you are using CleanRoomLoader, please consider to use [CleanRoomMC/Scalar](https://github.com/CleanroomMC/Scalar) to
+provide Scala language adapter.
 
 ## How it works?
 
@@ -95,11 +96,25 @@ object Foo {
 }
 ```
 
-## Using a Scala 3 library
+## Use a Scala 3 library
 
-There is still no good idea to using them because of the import relationship has been defined in bytecode.
+```diff
++ configurations {
++    shade
++    implementation.extendsFrom(shade)
++ }
 
-You can just simply copy the source code to your project or use some methods to recompile them.
+dependencies {
+	 // ...
++    shade "to.agroup:something:version"
+}
+
+tasks.named('shadowJar', ShadowJar) {
+     relocate 'scala.', 'scala3.'
+-    configurations = []
++    configurations = [project.configurations.shade]
+}
+```
 
 ## Issues
 
