@@ -1,3 +1,5 @@
+![banner](doc/scala3std.png)
+
 # Scala3Std
 
 1.12.2 Forge Scala3 Runtime Provider.
