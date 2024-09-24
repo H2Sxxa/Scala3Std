@@ -37,8 +37,9 @@ idea {
     }
 
 }
+
 compileScala {
-    scalaCompileOptions.additionalParameters = ["-target:jvm-1.8"] // No idea to handle it
+    scalaCompileOptions.additionalParameters = ["-Xtarget", "8"] // No idea to handle it
 }
 
 compileJava {

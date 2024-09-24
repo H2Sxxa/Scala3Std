@@ -52,6 +52,10 @@ plugins {
     id "com.github.johnrengelman.shadow" version "8.1.1"
 }
 
+compileScala {
+    scalaCompileOptions.additionalParameters = ["-Xtarget", "8"] // No idea to handle it
+}
+
 // Use shadowJar to rename `scala` to `scala3`
 tasks.named('shadowJar', ShadowJar) {
     relocate 'scala.', 'scala3.' // It should be declare more detailed for compat
