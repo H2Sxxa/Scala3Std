@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":tada: add banner">
+    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":fire: There is no need to use Adapter in Forge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/io/github/h2sxxa/Scala3Std.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/io/github/h2sxxa/Scala3Std.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727137270811</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=":fire: There is no need to use Adapter in Forge">
+      <option name="closed" value="true" />
+      <created>1727151992623</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727151992623</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -323,6 +330,7 @@
     <MESSAGE value=":memo: Fix Ord" />
     <MESSAGE value=":memo: refine `mcmod.info`" />
     <MESSAGE value=":tada: add banner" />
-    <option name="LAST_COMMIT_MESSAGE" value=":tada: add banner" />
+    <MESSAGE value=":fire: There is no need to use Adapter in Forge" />
+    <option name="LAST_COMMIT_MESSAGE" value=":fire: There is no need to use Adapter in Forge" />
   </component>
 </project>

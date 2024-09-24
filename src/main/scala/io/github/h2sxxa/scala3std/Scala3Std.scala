@@ -1,4 +1,4 @@
-package io.github.h2sxxa
+package io.github.h2sxxa.scala3std
 
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.common.Mod.EventHandler
