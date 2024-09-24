@@ -2,10 +2,9 @@
 
 # Scala3Std
 
-1.12.2 Minecraft Forge Scala3 Runtime Provider.
+1.12.2 Minecraft Forge Scala 3 Runtime Provider.
 
-If you are using CleanRoom, please consider to add [CleanRoomMC/Scalar](https://github.com/CleanroomMC/Scalar) to
-dependencies to provide language adapter.
+If you are using CleanRoomLoader, please consider to use [CleanRoomMC/Scalar](https://github.com/CleanroomMC/Scalar) to provide Scala language adapter.
 
 ## How it works?
 
@@ -13,7 +12,7 @@ Scala3Std use shadow plugin rename `scala` to `scala3` to build a fat jar and av
 
 Currently, Scala3Std is using `scala-library:2.13.15` and `scala3-library_3:3.0.2`.
 
-## How to use
+## How to use - For Developers
 
 Recommend to use [GTNewHorizons/RetroFuturaGradle](https://github.com/GTNewHorizons/RetroFuturaGradle)!
 
