@@ -102,13 +102,6 @@ dependencies {
 
 jar {
     duplicatesStrategy(DuplicatesStrategy.INCLUDE)
-    manifest {
-        def attribute_map = [:]
-        attribute_map['FMLCorePlugin'] = "com.cleanroommc.scalar.ScalarLoadingPlugin"
-        attribute_map['FMLCorePluginContainsFMLMod'] = true
-        attribute_map['ForceLoadAsMod'] = project.gradle.startParameter.taskNames[0] == "build"
-        attributes(attribute_map)
-    }
     // Add all embedded dependencies into the jar
     // from(provider { configurations.embed.collect { it.isDirectory() ? it : zipTree(it) } })
 }

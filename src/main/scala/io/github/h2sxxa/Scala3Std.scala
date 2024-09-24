@@ -12,7 +12,7 @@ import scala.util.Properties
   modid = "scala3std",
   name = "Scala3Std",
   version = "1.0.0",
-  modLanguageAdapter = "com.cleanroommc.scalar.ScalaLanguageAdapter",
+  modLanguage = "scala",
 )
 object Scala3Std {
   private val LOGGER = LogManager.getLogger("Scala3Std")

@@ -2,15 +2,16 @@
 
 # Scala3Std
 
-1.12.2 Forge Scala3 Runtime Provider.
+1.12.2 Minecraft Forge Scala3 Runtime Provider.
 
-It should also compat with CleanRoomMC.
+If you are using CleanRoom, please consider to add [CleanRoomMC/Scalar](https://github.com/CleanroomMC/Scalar) to
+dependencies to provide language adapter.
 
 ## How it works?
 
-- Scala3Std use the scala language adapter from [CleanRoomMC/Scalar](https://github.com/CleanroomMC/Scalar)
-- Scala3Std use shadow plugin rename `scala` to `scala3` to build a fat jar and avoid conflicting to scala used in forge
-    - Currently, Scala3Std is using `scala-library:2.13.15` and `scala3-library_3:3.0.2`
+Scala3Std use shadow plugin rename `scala` to `scala3` to build a fat jar and avoid conflicting to scala used in forge.
+
+Currently, Scala3Std is using `scala-library:2.13.15` and `scala3-library_3:3.0.2`.
 
 ## How to use
 
@@ -58,7 +59,7 @@ tasks.named("build") {
   modid = "foo",
   name = "Foo",
   version = "1.0.0",
-  modLanguageAdapter = "com.cleanroommc.scalar.ScalaLanguageAdapter",
+  modLanguage = "scala",
 )
 object Foo {
   // ...
@@ -67,9 +68,8 @@ object Foo {
 
 ## Issues
 
-https://github.com/H2Sxxa/Scala3Std
+https://github.com/H2Sxxa/Scala3Std/issues
 
 ## Credits
 
-- [CleanRoomMC](https://github.com/CleanroomMC)
 - [Oganesson897](https://github.com/Oganesson897)
