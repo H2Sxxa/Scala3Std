@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":fire: There is no need to use Adapter in Forge">
+    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +40,18 @@
                 <item name="Scalar4F" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Scalar4F" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="ide" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Scalar4F" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="modded minecraft" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -104,7 +116,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/WorkSpace/scala/Scalar4F/embed&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/h2sxx/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala3-library_3/3.0.2/e7bdb8e4b336f3dea5f25e46270de5968d402a1b/scala3-library_3-3.0.2.jar&quot;,
     &quot;project.structure.last.edited&quot;: &quot;库&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.28177458&quot;,
@@ -121,7 +133,7 @@
       <recent name="D:\WorkSpace\scala\Scalar4F\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Scalar4F [build]">
+  <component name="RunManager" selected="Gradle.Scalar4F [runClient]">
     <configuration name="Scalar4F [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -234,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Scalar4F [runClient]" />
         <item itemvalue="Gradle.Scalar4F [build]" />
         <item itemvalue="Gradle.Scalar4F [clean]" />
         <item itemvalue="Gradle.Scalar4F [dependencies]" />
         <item itemvalue="Gradle.Scalar4F [compileScala]" />
-        <item itemvalue="Gradle.Scalar4F [runClient]" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727151992623</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=":alien: Move">
+      <option name="closed" value="true" />
+      <created>1727152316377</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727152316377</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -331,6 +351,7 @@
     <MESSAGE value=":memo: refine `mcmod.info`" />
     <MESSAGE value=":tada: add banner" />
     <MESSAGE value=":fire: There is no need to use Adapter in Forge" />
-    <option name="LAST_COMMIT_MESSAGE" value=":fire: There is no need to use Adapter in Forge" />
+    <MESSAGE value=":alien: Move" />
+    <option name="LAST_COMMIT_MESSAGE" value=":alien: Move" />
   </component>
 </project>
