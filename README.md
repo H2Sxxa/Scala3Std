@@ -49,7 +49,7 @@ tasks.named("build") {
 }
 ```
 
-### Use Annotation to declare a Mod
+### 3. Use Annotation to declare a Mod
 
 ```scala 3
 @Mod(
