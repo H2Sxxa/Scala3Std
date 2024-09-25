@@ -11,7 +11,7 @@ provide Scala language adapter.
 
 Scala3Std use shadow plugin rename `scala` to `scala3` to build a fat jar and avoid conflicting to scala used in forge.
 
-Currently, Scala3Std is using `scala-library:2.13.15` and `scala3-library_3:3.0.2`.
+Currently, Scala3Std is using `scala-library:2.13.15` and `scala3-library_3:3.5.1`.
 
 ## How to use - For Developers
 
@@ -37,9 +37,9 @@ repositories {
 
 dependencies {
     implementation "org.scala-lang:scala-library:2.13.15"
-    implementation "org.scala-lang:scala3-library_3:3.0.2"
+    implementation "org.scala-lang:scala3-library_3:3.5.1"
 
-    implementation 'maven.modrinth:scala3std:1.0.0'
+    implementation 'maven.modrinth:scala3std:3.5.1'
 }
 ```
 
