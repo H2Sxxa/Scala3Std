@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":memo: Update">
+    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":sparkles: bump scala 3 lib to `3.5.1`">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,27 +103,28 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Gradle.Scalar4F [build].executor": "Run",
-    "Gradle.Scalar4F [clean].executor": "Run",
-    "Gradle.Scalar4F [compileScala].executor": "Run",
-    "Gradle.Scalar4F [dependencies].executor": "Run",
-    "Gradle.Scalar4F [runClient].executor": "Run",
-    "Gradle.Scalar4F [setupDecompWorkspace].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/h2sxx/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala3-library_3/3.0.2/e7bdb8e4b336f3dea5f25e46270de5968d402a1b/scala3-library_3-3.0.2.jar",
-    "project.structure.last.edited": "库",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.28177458",
-    "settings.editor.selected.configurable": "preferences.updates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.Scalar4F [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Scalar4F [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Scalar4F [compileScala].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Scalar4F [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Scalar4F [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Scalar4F [runServer].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Scalar4F [setupDecompWorkspace].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/h2sxx/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala3-library_3/3.0.2/e7bdb8e4b336f3dea5f25e46270de5968d402a1b/scala3-library_3-3.0.2.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;库&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.28177458&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WorkSpace\scala\Scalar4F\embed" />
@@ -134,7 +135,7 @@
       <recent name="D:\WorkSpace\scala\Scalar4F\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Scalar4F [build]">
+  <component name="RunManager" selected="Gradle.Scalar4F [runServer]">
     <configuration name="Scalar4F [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -169,28 +170,6 @@
         <option name="taskNames">
           <list>
             <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Scalar4F [compileScala]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="compileScala" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -245,13 +224,35 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Scalar4F [runServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Scalar4F [runServer]" />
         <item itemvalue="Gradle.Scalar4F [build]" />
         <item itemvalue="Gradle.Scalar4F [runClient]" />
         <item itemvalue="Gradle.Scalar4F [clean]" />
         <item itemvalue="Gradle.Scalar4F [dependencies]" />
-        <item itemvalue="Gradle.Scalar4F [compileScala]" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +388,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727176192829</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=":sparkles: bump scala 3 lib to `3.5.1`">
+      <option name="closed" value="true" />
+      <created>1727241826551</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727241826551</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -418,6 +427,7 @@
     <MESSAGE value=":memo: How to use Scala3 Lib" />
     <MESSAGE value=":bug: Fix Compile Option" />
     <MESSAGE value=":memo: Update" />
-    <option name="LAST_COMMIT_MESSAGE" value=":memo: Update" />
+    <MESSAGE value=":sparkles: bump scala 3 lib to `3.5.1`" />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: bump scala 3 lib to `3.5.1`" />
   </component>
 </project>

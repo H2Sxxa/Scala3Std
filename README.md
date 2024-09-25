@@ -17,6 +17,8 @@ Currently, Scala3Std is using `scala-library:2.13.15` and `scala3-library_3:3.0.
 
 Recommend to use [GTNewHorizons/RetroFuturaGradle](https://github.com/GTNewHorizons/RetroFuturaGradle)!
 
+Template: [Oganesson897/Templater#scala3](https://github.com/Oganesson897/Templater/tree/scala3)
+
 ### 1. Declare Dependencies
 
 ```groovy
@@ -68,21 +70,22 @@ tasks.named("build") {
 
 // This task is used to make `runClient` using `shadow jar` instead of `common jar`.
 tasks.register('shadowCopy', Copy) {
+    mustRunAfter(tasks.named("shadowJar"))
+
     from 'build/libs'
     into 'build/libs'
     rename { String fileName ->
-        fileName.replace('-all', '-dev') // Depend which framework you are using
+        fileName.replace('-all', '-dev')
     }
     include("*-all.jar")
 }
 
 tasks.named("jar") {
     dependsOn(tasks.named("shadowJar"))
-    finalizedBy(tasks.named("shadowCopy"))
 }
 
-tasks.named("runClient") {
-    mustRunAfter(tasks.named("shadowCopy"))
+tasks.named("packageMcLauncher") {
+    dependsOn(tasks.named("shadowCopy"))
 }
 ```
 
