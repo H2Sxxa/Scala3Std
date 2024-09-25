@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":bug: Fix Compile Option">
+    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":memo: Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
@@ -103,27 +103,27 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Gradle.Scalar4F [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Scalar4F [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Scalar4F [compileScala].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Scalar4F [dependencies].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Scalar4F [runClient].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Scalar4F [setupDecompWorkspace].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/h2sxx/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala3-library_3/3.0.2/e7bdb8e4b336f3dea5f25e46270de5968d402a1b/scala3-library_3-3.0.2.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;库&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.28177458&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Gradle.Scalar4F [build].executor": "Run",
+    "Gradle.Scalar4F [clean].executor": "Run",
+    "Gradle.Scalar4F [compileScala].executor": "Run",
+    "Gradle.Scalar4F [dependencies].executor": "Run",
+    "Gradle.Scalar4F [runClient].executor": "Run",
+    "Gradle.Scalar4F [setupDecompWorkspace].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/h2sxx/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala3-library_3/3.0.2/e7bdb8e4b336f3dea5f25e46270de5968d402a1b/scala3-library_3-3.0.2.jar",
+    "project.structure.last.edited": "库",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.28177458",
+    "settings.editor.selected.configurable": "preferences.updates"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WorkSpace\scala\Scalar4F\embed" />
@@ -379,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727176081326</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary=":memo: Update">
+      <option name="closed" value="true" />
+      <created>1727176192829</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727176192829</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -409,6 +417,7 @@
     <MESSAGE value=":pencil2: rename version for publishing" />
     <MESSAGE value=":memo: How to use Scala3 Lib" />
     <MESSAGE value=":bug: Fix Compile Option" />
-    <option name="LAST_COMMIT_MESSAGE" value=":bug: Fix Compile Option" />
+    <MESSAGE value=":memo: Update" />
+    <option name="LAST_COMMIT_MESSAGE" value=":memo: Update" />
   </component>
 </project>
