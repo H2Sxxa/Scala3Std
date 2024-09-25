@@ -53,7 +53,7 @@ plugins {
 }
 
 compileScala {
-    scalaCompileOptions.additionalParameters = ["-Xtarget", "8"] // No idea to handle it
+    scalaCompileOptions.additionalParameters = ["-Xtarget", "8"] // scala/scala3#13810
 }
 
 // Use shadowJar to rename `scala` to `scala3`
