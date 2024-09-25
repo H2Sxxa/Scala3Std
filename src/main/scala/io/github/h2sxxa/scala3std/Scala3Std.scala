@@ -11,7 +11,7 @@ import scala.util.Properties
 @Mod(
   modid = "scala3std",
   name = "Scala3Std",
-  version = "1.0.0",
+  version = "3.5.1",
   modLanguage = "scala",
 )
 object Scala3Std {

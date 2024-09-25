@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":memo: Fix README to run in more situation &amp;&amp; Add Template info">
+    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":memo: Fix README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -403,7 +403,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727242360871</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary=":memo: Fix README">
+      <option name="closed" value="true" />
+      <created>1727242972057</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1727242972057</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,6 +444,7 @@
     <MESSAGE value=":memo: Update" />
     <MESSAGE value=":sparkles: bump scala 3 lib to `3.5.1`" />
     <MESSAGE value=":memo: Fix README to run in more situation &amp;&amp; Add Template info" />
-    <option name="LAST_COMMIT_MESSAGE" value=":memo: Fix README to run in more situation &amp;&amp; Add Template info" />
+    <MESSAGE value=":memo: Fix README" />
+    <option name="LAST_COMMIT_MESSAGE" value=":memo: Fix README" />
   </component>
 </project>
