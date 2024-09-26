@@ -17,7 +17,7 @@ Currently, Scala3Std is using `scala-library:2.13.15` and `scala3-library_3:3.5.
 
 Recommend to use [GTNewHorizons/RetroFuturaGradle](https://github.com/GTNewHorizons/RetroFuturaGradle)!
 
-Template: [Oganesson897/Templater#scala3](https://github.com/Oganesson897/Templater/tree/scala3)
+Template: [Oganesson897/Templater#scala](https://github.com/Oganesson897/Templater/tree/scala)
 
 ### 1. Declare Dependencies
 
