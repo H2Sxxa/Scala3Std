@@ -100,18 +100,35 @@ dependencies {
     shade "org.scala-lang:scala3-library_3:3.5.1"
 }
 
-
 jar {
-    duplicatesStrategy(DuplicatesStrategy.INCLUDE)
-    // Add all embedded dependencies into the jar
-    // from(provider { configurations.embed.collect { it.isDirectory() ? it : zipTree(it) } })
+
 }
 
-tasks.named('shadowJar', ShadowJar) {
+shadowJar {
     relocate 'scala.', 'scala3.'
     configurations = [project.configurations.shade]
 }
 
 tasks.named("build") {
     dependsOn(tasks.named("shadowJar"))
+}
+
+// This task is used to make `runClient` using `shadow jar` instead of `common jar`.
+tasks.register('shadowCopy', Copy) {
+    mustRunAfter(tasks.named("shadowJar"))
+
+    from 'build/libs'
+    into 'build/libs'
+    rename { String fileName ->
+        fileName.replace('-all', '-dev')
+    }
+    include("*-all.jar")
+}
+
+tasks.named("jar") {
+    dependsOn(tasks.named("shadowJar"))
+}
+
+tasks.named("packageMcLauncher") {
+    dependsOn(tasks.named("shadowCopy"))
 }
