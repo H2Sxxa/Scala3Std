@@ -11,7 +11,7 @@ plugins {
 }
 
 
-version = "3.5.1"
+version = "3.5.1+A"
 group = "io.github.h2sxxa"
 archivesBaseName = "scala3std"
 
