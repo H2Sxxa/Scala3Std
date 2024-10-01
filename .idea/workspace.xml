@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":bookmark: 3.5.1+A" />
+    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":memo: Modify README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/scala_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/io/github/h2sxxa/scala3std/Scala3Std.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/io/github/h2sxxa/scala3std/Scala3Std.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +86,9 @@
     &quot;accountId&quot;: &quot;bd39fbec-80af-426e-80f1-4bf1627d661c&quot;
   }
 }</component>
+  <component name="PerforceDirect.Settings">
+    <option name="CHARSET" value="none" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -114,13 +121,14 @@
     &quot;Gradle.Scalar4F [setupDecompWorkspace].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/h2sxx/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala3-library_3/3.0.2/e7bdb8e4b336f3dea5f25e46270de5968d402a1b/scala3-library_3-3.0.2.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;库&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;工件&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.28177458&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -250,13 +258,27 @@
       <list>
         <item itemvalue="Gradle.Scalar4F [runClient]" />
         <item itemvalue="Gradle.Scalar4F [build]" />
-        <item itemvalue="Gradle.Scalar4F [buildDependents]" />
         <item itemvalue="Gradle.Scalar4F [clean]" />
+        <item itemvalue="Gradle.Scalar4F [buildDependents]" />
         <item itemvalue="Gradle.Scalar4F [runServer]" />
       </list>
     </recent_temporary>
   </component>
   <component name="ScalaProjectSettings">
+    <option name="intInjectionMapping">
+      <map>
+        <entry key="html" value="HTML" />
+        <entry key="java" value="JAVA" />
+        <entry key="json" value="JSON" />
+        <entry key="json5" value="JSON5" />
+        <entry key="md" value="Markdown" />
+        <entry key="scala" value="Scala" />
+        <entry key="svg" value="SVG" />
+        <entry key="xhtml" value="XHTML" />
+        <entry key="xml" value="XML" />
+        <entry key="yaml" value="yaml" />
+      </map>
+    </option>
     <option name="scala3DisclaimerShown" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -436,7 +458,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727705970793</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary=":memo: Modify README.md">
+      <option name="closed" value="true" />
+      <created>1727706108875</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1727706108875</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -473,6 +503,7 @@
     <MESSAGE value=": OMG, I forget to modify version in Mod" />
     <MESSAGE value=": Better Runtime Getter" />
     <MESSAGE value=":bookmark: 3.5.1+A" />
-    <option name="LAST_COMMIT_MESSAGE" value=":bookmark: 3.5.1+A" />
+    <MESSAGE value=":memo: Modify README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value=":memo: Modify README.md" />
   </component>
 </project>

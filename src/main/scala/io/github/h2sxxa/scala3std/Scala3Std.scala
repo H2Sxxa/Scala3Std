@@ -5,8 +5,10 @@ import net.minecraftforge.fml.common.Mod.EventHandler
 import net.minecraftforge.fml.common.event.FMLInitializationEvent
 import org.apache.logging.log4j.LogManager
 
+import scala.annotation.unused
 import scala.util.Properties
 
+@unused
 @Mod(
   modid = "scala3std",
   name = "Scala3Std",
@@ -16,9 +18,10 @@ import scala.util.Properties
 object Scala3Std {
   private val LOGGER = LogManager.getLogger("Scala3Std")
 
+  @unused
   @Mod.EventHandler
-  def init(event: FMLInitializationEvent): Unit = {
-    val resources = ClassLoader.getSystemClassLoader.getResources("library.properties")
+  def init(@unused event: FMLInitializationEvent): Unit = {
+    val resources = classOf[Option[?]].getClassLoader.getResources("library.properties")
     LOGGER.info("Detecting Scala Libraries...")
     while resources.hasMoreElements
     do
@@ -28,6 +31,6 @@ object Scala3Std {
         props.load(element.openStream())
         LOGGER.info(element.getPath + " version:" + props.getProperty("version.number"))
       } catch
-        case _ => ()
+        case _ =>
   }
 }
