@@ -10,6 +10,7 @@ import scala.util.Properties
 
 @unused
 @Mod(
+  value = "scala3std",
   modid = "scala3std",
   name = "Scala3Std",
   version = "3.5.1+A",
