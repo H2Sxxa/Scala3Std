@@ -1,0 +1,8 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GPLv3"
+[[mods]]
+modId="scala3std"
+version="${version}"
+displayName="Scala3Std"
+authors="H2Sxxa"

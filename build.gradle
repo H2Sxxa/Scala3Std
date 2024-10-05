@@ -65,7 +65,7 @@ processResources {
     inputs.property 'mcversion', project.minecraft.version
 
     // Replace various properties in mcmod.info and pack.mcmeta if applicable
-    filesMatching(['mcmod.info', 'pack.mcmeta']) { fcd ->
+    filesMatching(['mcmod.info', 'pack.mcmeta', 'mods.toml']) { fcd ->
         // Replace version and mcversion
         fcd.expand(
                 'version': project.version,
