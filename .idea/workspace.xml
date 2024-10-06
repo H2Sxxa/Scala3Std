@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":sparkles: compat for higher version of forge">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":memo: Update README.md">
+      <change beforePath="$PROJECT_DIR$/doc/scala3std.psd" beforeDir="false" afterPath="$PROJECT_DIR$/doc/scala3std.psd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -470,7 +469,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728213918152</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary=":memo: Update README.md">
+      <option name="closed" value="true" />
+      <created>1728216004541</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1728216004541</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,7 +502,6 @@
     <MESSAGE value=":tada: add banner" />
     <MESSAGE value=":fire: There is no need to use Adapter in Forge" />
     <MESSAGE value=":alien: Move" />
-    <MESSAGE value=":memo: Update README.md" />
     <MESSAGE value=":pencil2: refine dependencies section" />
     <MESSAGE value=":pencil2: rename version for publishing" />
     <MESSAGE value=":memo: How to use Scala3 Lib" />
@@ -510,6 +516,7 @@
     <MESSAGE value=":memo: Modify README.md" />
     <MESSAGE value=":sparkles: unused lint" />
     <MESSAGE value=":sparkles: compat for higher version of forge" />
-    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: compat for higher version of forge" />
+    <MESSAGE value=":memo: Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value=":memo: Update README.md" />
   </component>
 </project>
