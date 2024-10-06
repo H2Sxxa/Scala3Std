@@ -6,6 +6,10 @@ Universal Minecraft Forge Scala 3 Runtime Provider.
 
 ## Scala3Std **IS NOT A LANGUAGE ADAPTER**
 
+### 1.13.2-
+
+Forge has a default Scala Language Adapter, you don't need another adapter.
+
 ### Cleanroom
 
 If you are using Cleanroom, please consider to use [CleanRoomMC/Scalar](https://github.com/CleanroomMC/Scalar) to
@@ -13,7 +17,7 @@ provide Scala language adapter.
 
 ### 1.12.2+
 
-Use [Kotori316/SLP](https://github.com/Kotori316/SLP) as your dependencies
+Use [Kotori316/SLP](https://github.com/Kotori316/SLP) to your dependencies
 
 ## How it works?
 

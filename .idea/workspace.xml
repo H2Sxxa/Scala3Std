@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":memo: Update README.md">
-      <change beforePath="$PROJECT_DIR$/doc/scala3std.psd" beforeDir="false" afterPath="$PROJECT_DIR$/doc/scala3std.psd" afterDir="false" />
+    <list default="true" id="ec9bd18b-ad67-4da5-a092-4fdf4da5d6b7" name="更改" comment=":memo: Welcome PR or Issue~">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +41,6 @@
                 <item name="Scalar4F" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="modded minecraft" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Scalar4F" type="f1a62948:ProjectNode" />
-                <item name="运行配置" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -130,7 +126,7 @@
       <recent name="D:\WorkSpace\scala\Scalar4F\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Scalar4F [runClient]">
+  <component name="RunManager" selected="Gradle.Scalar4F [build]">
     <configuration name="Scalar4F [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -243,9 +239,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Scalar4F [runClient]" />
         <item itemvalue="Gradle.Scalar4F [build]" />
         <item itemvalue="Gradle.Scalar4F [clean]" />
+        <item itemvalue="Gradle.Scalar4F [runClient]" />
         <item itemvalue="Gradle.Scalar4F [buildDependents]" />
         <item itemvalue="Gradle.Scalar4F [runServer]" />
       </list>
@@ -477,7 +473,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728216004541</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary=":art: Update Logo">
+      <option name="closed" value="true" />
+      <created>1728216253407</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1728216253407</updated>
+    </task>
+    <task id="LOCAL-00027" summary=":memo: Add description">
+      <option name="closed" value="true" />
+      <created>1728216584349</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1728216584349</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -493,8 +505,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value=":bug: Fix `mcmod.info`" />
-    <MESSAGE value=":memo: Add `README.md`" />
     <MESSAGE value=":poop: Fix Grammar" />
     <MESSAGE value=":sparkles: How to declare mod" />
     <MESSAGE value=":memo: Fix Ord" />
@@ -517,6 +527,9 @@
     <MESSAGE value=":sparkles: unused lint" />
     <MESSAGE value=":sparkles: compat for higher version of forge" />
     <MESSAGE value=":memo: Update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value=":memo: Update README.md" />
+    <MESSAGE value=":art: Update Logo" />
+    <MESSAGE value=":memo: Add description" />
+    <MESSAGE value=":memo: Welcome PR or Issue~" />
+    <option name="LAST_COMMIT_MESSAGE" value=":memo: Welcome PR or Issue~" />
   </component>
 </project>
