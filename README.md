@@ -53,7 +53,7 @@ dependencies {
     implementation "org.scala-lang:scala-library:2.13.15"
     implementation "org.scala-lang:scala3-library_3:3.5.1"
 
-    implementation 'maven.modrinth:scala3std:3.5.1+A'
+    implementation 'maven.modrinth:scala3std:3.5.1+B'
 }
 ```
 
