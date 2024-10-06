@@ -1,5 +1,3 @@
-import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
-
 plugins {
     id 'java'
     id 'java-library'
@@ -11,7 +9,7 @@ plugins {
 }
 
 
-version = "3.5.1+A"
+version = "3.5.1+B"
 group = "io.github.h2sxxa"
 archivesBaseName = "scala3std"
 
@@ -65,7 +63,7 @@ processResources {
     inputs.property 'mcversion', project.minecraft.version
 
     // Replace various properties in mcmod.info and pack.mcmeta if applicable
-    filesMatching(['mcmod.info', 'pack.mcmeta', 'mods.toml']) { fcd ->
+    filesMatching(['mcmod.info', 'pack.mcmeta', 'META-INF/mods.toml']) { fcd ->
         // Replace version and mcversion
         fcd.expand(
                 'version': project.version,
@@ -100,12 +98,15 @@ dependencies {
     shade "org.scala-lang:scala3-library_3:3.5.1"
 }
 
-jar {
-
-}
 
 shadowJar {
+    relocate 'cross.net.minecraftforge.fml.common', 'net.minecraftforge.fml.common'
+    exclude 'net'
+    exclude 'cross'
+
     relocate 'scala.', 'scala3.'
+
+
     configurations = [project.configurations.shade]
 }
 
