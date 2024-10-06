@@ -2,10 +2,18 @@
 
 # Scala3Std
 
-1.12.2 Minecraft Forge Scala 3 Runtime Provider.
+Universal Minecraft Forge Scala 3 Runtime Provider.
 
-If you are using CleanRoomLoader, please consider to use [CleanRoomMC/Scalar](https://github.com/CleanroomMC/Scalar) to
+## Scala3Std **IS NOT A LANGUAGE ADAPTER**
+
+### Cleanroom
+
+If you are using Cleanroom, please consider to use [CleanRoomMC/Scalar](https://github.com/CleanroomMC/Scalar) to
 provide Scala language adapter.
+
+### 1.12.2+
+
+Use [Kotori316/SLP](https://github.com/Kotori316/SLP) as your dependencies
 
 ## How it works?
 
@@ -13,13 +21,15 @@ Scala3Std use shadow plugin rename `scala` to `scala3` to build a fat jar and av
 
 Currently, Scala3Std is using `scala-library:2.13.15` and `scala3-library_3:3.5.1`.
 
-## How to use - For Developers
+## How to use
+
+### 1.12.2
 
 Recommend to use [GTNewHorizons/RetroFuturaGradle](https://github.com/GTNewHorizons/RetroFuturaGradle)!
 
 Template: [Oganesson897/Templater#scala](https://github.com/Oganesson897/Templater/tree/scala)
 
-### 1. Declare Dependencies
+#### 1. Declare Dependencies
 
 ```groovy
 repositories {
@@ -43,7 +53,7 @@ dependencies {
 }
 ```
 
-### 2. Import and Configure shadow plugin
+#### 2. Import and Configure shadow plugin
 
 ```groovy
 import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
@@ -89,7 +99,7 @@ tasks.named("packageMcLauncher") {
 }
 ```
 
-### 3. Use Annotation to declare a Mod
+#### 3. Use Annotation to declare a Mod
 
 ```scala 3
 @Mod(
@@ -103,7 +113,11 @@ object Foo {
 }
 ```
 
-## Use a Scala 3 library
+### Other Version
+
+Just refer to 1.12.2 tutorial and shadow your mod.
+
+### Use a Scala 3 library
 
 ```diff
 + configurations {
