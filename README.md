@@ -17,7 +17,7 @@ provide Scala language adapter.
 
 ### 1.12.2+
 
-Use [Kotori316/SLP](https://github.com/Kotori316/SLP) to your dependencies
+Add [Kotori316/SLP](https://github.com/Kotori316/SLP) to your dependencies
 
 ## How it works?
 
