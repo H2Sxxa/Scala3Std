@@ -117,6 +117,8 @@ object Foo {
 
 Just refer to 1.12.2 tutorial and shadow your mod.
 
+Any Pull Request or Issue is welcome!
+
 ### Use a Scala 3 library
 
 ```diff
