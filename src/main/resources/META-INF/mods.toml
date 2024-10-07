@@ -1,5 +1,5 @@
 modLoader = "kotori_scala"
-loaderVersion = "[36,)"
+loaderVersion = "[2,)"
 license = "GPL-3.0-only"
 issueTrackerURL = "https://github.com/H2Sxxa/Scala3Std/issues"
 
