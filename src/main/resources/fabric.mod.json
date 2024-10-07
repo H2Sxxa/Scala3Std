@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "scala3std",
+  "version": "${version}",
+  "name": "Scala3Std",
+  "description": "Universal Minecraft Forge Scala 3 Runtime Provider.",
+  "authors": [
+    "H2sxxa"
+  ],
+  "contact": {
+    "sources": "https://github.com/H2Sxxa/Scala3Std"
+  },
+  "license": "GPL-3.0-Only",
+  "icon": "",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "scala",
+        "value": "io.github.h2sxxa.scala3std.fabric.Scala3Std"
+      }
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabric-language-scala": "*",
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "*",
+    "java": ">=8"
+  },
+  "suggests": {}
+}

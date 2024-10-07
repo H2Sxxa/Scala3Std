@@ -1,0 +1,27 @@
+modLoader = "kotori_scala"
+loaderVersion = "[36,)"
+license = "GPL-3.0-only"
+issueTrackerURL = "https://github.com/H2Sxxa/Scala3Std/issues"
+
+[[mods]]
+modId = "scala3std"
+version = "${version}"
+displayName = "Scala3Std"
+authors = "H2Sxxa"
+description = '''
+Universal Minecraft Forge Scala 3 Runtime Provider.
+'''
+
+[[dependencies.scala3std]]
+modId = "neoforge"
+type="required"
+versionRange = "[25,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.scala3std]]
+modId = "minecraft"
+type="required"
+versionRange = "[1.13.2,)"
+ordering = "NONE"
+side = "BOTH"
