@@ -9,7 +9,7 @@ version = "${version}"
 displayName = "Scala3Std"
 authors = "H2Sxxa"
 description = '''
-Universal Minecraft Forge Scala 3 Runtime Provider.
+Universal Minecraft ModLoader Scala 3 Runtime Provider.
 '''
 
 [[dependencies.scala3std]]

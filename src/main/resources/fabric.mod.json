@@ -3,7 +3,7 @@
   "id": "scala3std",
   "version": "${version}",
   "name": "Scala3Std",
-  "description": "Universal Minecraft Forge Scala 3 Runtime Provider.",
+  "description": "Universal Minecraft ModLoader Scala 3 Runtime Provider.",
   "authors": [
     "H2sxxa"
   ],

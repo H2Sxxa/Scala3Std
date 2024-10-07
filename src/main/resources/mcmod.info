@@ -2,7 +2,7 @@
 {
   "modid": "scala3std",
   "name": "Scala3Std",
-  "description": "Universal Minecraft Forge Scala 3 Runtime Provider.",
+  "description": "Universal Minecraft ModLoader Scala 3 Runtime Provider.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "https://github.com/H2Sxxa/Scala3Std",
