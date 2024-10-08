@@ -2,7 +2,7 @@
 
 # Scala3Std
 
-Universal Minecraft Forge Scala 3 Runtime Provider.
+Universal Minecraft ModLoader Scala 3 Runtime Provider.
 
 ## How to use?
 
