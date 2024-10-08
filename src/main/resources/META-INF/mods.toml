@@ -4,22 +4,22 @@ license = "GPL-3.0-only"
 issueTrackerURL = "https://github.com/H2Sxxa/Scala3Std/issues"
 
 [[mods]]
-modId = "scala3std"
+modId = "${modid}"
 version = "${version}"
-displayName = "Scala3Std"
+displayName = "${modname}"
 authors = "H2Sxxa"
 description = '''
 Universal Minecraft ModLoader Scala 3 Runtime Provider.
 '''
 
-[[dependencies.scala3std]]
+[[dependencies.'${modid}']]
 modId = "forge"
 mandatory = true
 versionRange = "[25,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.scala3std]]
+[[dependencies.'${modid}']]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.13.2,)"

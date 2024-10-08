@@ -1,7 +1,7 @@
 [
 {
-  "modid": "scala3std",
-  "name": "Scala3Std",
+  "modid": "${modid}",
+  "name": "${modname}",
   "description": "Universal Minecraft ModLoader Scala 3 Runtime Provider.",
   "version": "${version}",
   "mcversion": "${mcversion}",

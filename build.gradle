@@ -11,7 +11,9 @@ plugins {
 
 version = "3.5.1+C"
 group = "io.github.h2sxxa"
-archivesBaseName = "scala3std"
+def modid = "scala3std"
+archivesBaseName = modid
+def modName = "Scala3Std"
 
 
 java {
@@ -20,9 +22,6 @@ java {
         // Azul covers the most platforms for Java 8 toolchains, crucially including MacOS arm64
         vendor.set(JvmVendorSpec.AZUL)
     }
-    // Generate sources and javadocs jars when building and publishing
-    withSourcesJar()
-    // withJavadocJar()
 }
 
 tasks.withType(JavaCompile).configureEach {
@@ -54,19 +53,36 @@ minecraft {
     // MCP Mappings
     mcpMappingChannel = 'stable'
     mcpMappingVersion = '39'
+
+    injectedTags.put('VERSION', project.version)
+    injectedTags.put('MODID', modid)
+    injectedTags.put('NAME', modName)
+}
+
+tasks.injectTags.configure {
+    // Change Tags class' name here:
+    outputClassName.set("${project.group}.${project.archivesBaseName}.ModInfo")
+}
+
+tasks.named("processIdeaSettings").configure {
+    dependsOn("injectTags")
 }
 
 processResources {
     // This will ensure that this task is redone when the versions change
     inputs.property 'version', project.version
     inputs.property 'mcversion', project.minecraft.version
+    inputs.property 'modname', modName
+    inputs.property 'modid', modid
+
 
     // Replace various properties in mcmod.info and pack.mcmeta if applicable
     filesMatching(['mcmod.info', 'pack.mcmeta', 'fabric.mod.json', 'META-INF/mods.toml', 'META-INF/neoforge.mods.toml']) { fcd ->
         // Replace version and mcversion
-        fcd.expand(
-                'version': project.version,
-                'mcversion': project.minecraft.version
+        fcd.expand('version': project.version,
+                'mcversion': project.minecraft.version,
+                'modname': modName,
+                'modid': modid
         )
     }
 
@@ -123,8 +139,7 @@ tasks.register('shadowCopy', Copy) {
 
     from 'build/libs'
     into 'build/libs'
-    rename { String fileName ->
-        fileName.replace('-all', '-dev')
+    rename { String fileName -> fileName.replace('-all', '-dev')
     }
     include("*-all.jar")
 }

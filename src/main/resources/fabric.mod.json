@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "scala3std",
+  "id": "${modid}",
   "version": "${version}",
-  "name": "Scala3Std",
+  "name": "${modname}",
   "description": "Universal Minecraft ModLoader Scala 3 Runtime Provider.",
   "authors": [
     "H2sxxa"
