@@ -9,7 +9,7 @@ plugins {
 }
 
 
-version = "3.5.1+C"
+version = "3.5.1+D"
 group = "io.github.h2sxxa"
 def modid = "scala3std"
 archivesBaseName = modid
@@ -27,6 +27,18 @@ java {
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
 }
+
+sourceSets {
+    main {
+        scala {
+            srcDirs = ['src/main/scala', 'src/main/java']
+        }
+        java {
+            srcDirs = []
+        }
+    }
+}
+
 
 idea {
     module {

@@ -15,5 +15,5 @@ import scala.util.Properties
   modLanguage = "scala",
 )
 object Scala3Std {
-  LibDetector.scan()
+  val properties: List[java.util.Properties] = LibDetector.scan()
 }

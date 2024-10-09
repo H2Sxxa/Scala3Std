@@ -1,5 +1,5 @@
-modLoader = "kotori_scala"
-loaderVersion = "[2,)"
+modLoader = "javafml"
+loaderVersion = "[25,)"
 license = "GPL-3.0-only"
 issueTrackerURL = "https://github.com/H2Sxxa/Scala3Std/issues"
 
@@ -15,7 +15,7 @@ Universal Minecraft ModLoader Scala 3 Runtime Provider.
 [[dependencies.'${modid}']]
 modId = "neoforge"
 type = "required"
-versionRange = "[1,)"
+versionRange = "[1.7.10,)"
 ordering = "NONE"
 side = "BOTH"
 

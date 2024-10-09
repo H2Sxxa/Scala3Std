@@ -1,4 +1,4 @@
-package io.github.h2sxxa.scala3std.forge
+package io.github.h2sxxa.scala3std.retro
 
 import cross.net.minecraftforge.fml.common.Mod
 import io.github.h2sxxa.scala3std.common.LibDetector
@@ -15,5 +15,5 @@ import scala.util.Properties
   modLanguage = "scala",
 )
 object Scala3Std {
-  LibDetector.scan()
+  val properties: List[java.util.Properties] = LibDetector.scan()
 }

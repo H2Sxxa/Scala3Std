@@ -23,7 +23,6 @@
   },
   "mixins": [],
   "depends": {
-    "fabric-language-scala": "*",
     "fabricloader": "*",
     "fabric": "*",
     "minecraft": "*",
