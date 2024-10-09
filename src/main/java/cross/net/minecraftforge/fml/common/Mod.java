@@ -18,7 +18,4 @@ public @interface Mod {
 
     String version() default "";
 
-    String modLanguage() default "";
-
-
 }

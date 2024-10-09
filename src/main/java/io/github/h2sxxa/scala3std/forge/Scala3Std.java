@@ -8,7 +8,7 @@ import scala.collection.immutable.List;
 import java.util.Properties;
 
 @SuppressWarnings("unused")
-@Mod(value = ModInfo.MODID)
+@Mod(value = ModInfo.MODID, modid = ModInfo.MODID, name = ModInfo.NAME, version = ModInfo.VERSION)
 public class Scala3Std {
     public static final List<Properties> properties = LibDetector.scan();
 }
