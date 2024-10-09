@@ -15,10 +15,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      {
-        "adapter": "scala",
-        "value": "io.github.h2sxxa.scala3std.fabric.Scala3Std"
-      }
+      "io.github.h2sxxa.scala3std.fabric.Scala3Std"
     ]
   },
   "mixins": [],
